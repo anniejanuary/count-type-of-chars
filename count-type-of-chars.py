@@ -15,8 +15,8 @@
 # and 2 special characters.
 
 class Solution:
-    def count (self,s):
-        result = [0 for i in range(4)]
+    def count (self,s): # why 'self'?
+        result = [0 for i in range(4)] # how does it get printed/returned each in a new line?
         
         for i in s:
             if i >= 'A' and i <= 'Z':
